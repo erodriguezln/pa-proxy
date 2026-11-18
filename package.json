@@ -1,0 +1,14 @@
+{
+  "name": "pa-proxy",
+  "private": true,
+  "engines": {
+    "node": "^24.0.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node proxy.mjs"
+  },
+  "dependencies": {
+    "httpxy": "0.5.6"
+  }
+}
